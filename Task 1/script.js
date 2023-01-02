@@ -26,7 +26,8 @@ document.querySelector("form").addEventListener("submit", e => {
     }
   
   
-    document.querySelector("h2").innerHTML = `<p class="resultsblock">
+    document.querySelector("h2").innerHTML = `
+    <p class="resultsblock">
     ${kg} kg yra ${svarai()} lb <br>
     ${kg} kg yra ${gramai()} g <br>
     ${kg} kg yra ${uncijos()} oz <br>

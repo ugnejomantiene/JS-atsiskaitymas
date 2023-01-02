@@ -1,4 +1,5 @@
 /* Resets */
+
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +23,30 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  animation: move 3s linear infinite;
+  transform-origin: center;
+
 }
+
+
+@keyframes move {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-300px, 100px);
+  }
+  50% {
+    transform: translate(200px, 400px);
+  }
+  75% {
+    transform: translate(300px, 200px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
 #btn__element {
   width: 75%;
   padding: 15px 25px;

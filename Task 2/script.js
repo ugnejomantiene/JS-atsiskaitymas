@@ -13,4 +13,4 @@ function handleClick() {
   display.innerHTML = clickCount;
 }
 
-button.addEventListener("click", handleClick);
+button.addEventListener("click", handleClick); //have fun <3
