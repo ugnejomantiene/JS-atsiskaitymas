@@ -20,12 +20,24 @@ const users = [
   { id: '9', name: 'Daniel Cane', age: 51, hasDog: true },
 ];
 
-const filterDogOwers = users.filter(function(dog) {
-  return dog.hasDog == true
-});
-console.log(filterDogOwers);
+// let filterDogOwners = users.filter(function(dog) {
+//   return dog.hasDog == true
+// });
 
-const filterAdults = users.filter(function(age) {
-  return age.age >= 18;
-});
-console.log(filterAdults);
+
+let filterDogOwners = turiSuni => {
+  return turiSuni.filter(asmuoTuriSuni => asmuoTuriSuni.hasDog)
+};
+console.log(filterDogOwners(users));
+
+
+
+// let filterAdults = users.filter(function(age) {
+//   return age.age >= 18;
+// });
+// console.log(filterAdults);
+
+let filterAdults = pilnametis => {
+  return pilnametis.filter(asmuoYraPilnametis => asmuoYraPilnametis.age >=18);
+}
+console.log(filterAdults(users));
