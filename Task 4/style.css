@@ -21,8 +21,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(25, 25, 44);
-}
+  background: rgb(166,159,232);
+  background: linear-gradient(16deg, rgba(166,159,232,1) 2%, rgba(255,255,255,1) 43%, rgba(0,0,0,1) 92%);}
 
 .container .bigText {
   margin: 50px;
@@ -37,6 +37,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 10px;
   width: 90%;
+  
 }
 .card {
   width: 100%;
